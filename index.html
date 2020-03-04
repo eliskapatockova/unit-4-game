@@ -62,6 +62,7 @@
                     the values of each crystal.</p>
                 </div>
                  </div>
+
                 </div>
             </div>
         </div>
@@ -71,7 +72,7 @@
 
                   <!-- display a random number -->
                 <div class = "col-lg-4">
-                    <div class = "randomlyGeneratedNumber">randNum</div>
+                    <div class = "randomlyGeneratedNumber"><span id="randomNumber"></span></div>
                 </div>
 
                 <!-- display wins and losses -->
@@ -79,13 +80,33 @@
                     <p>Wins: <span id="wins"></span></p>
                     <p>Losses:  <span id="losses"></span></p>
                 </div>
-
+                <div class = "col-lg-2"></div>
             </div>
                
                 <!-- display crystals as buttons -->
-
+                <div class = "row">
+                    <div class = "col-lg-2"></div>
+                    <div class = "col-lg-2"> <button type="button" class="btn btn-primary" id="Crystal1Button">C1</button> </div>  <!-- button 1 -->
+                    <div class = "col-lg-2"> <button type="button" class="btn btn-primary" id="Crystal2Button">C2</button> </div>  <!-- button 2 -->
+                    <div class = "col-lg-2"> <button type="button" class="btn btn-primary" id="Crystal3Button">C3</button> </div>  <!-- button 3 -->
+                    <div class = "col-lg-2"> <button type="button" class="btn btn-primary" id="Crystal4Button">C4</button> </div>  <!-- button 4 -->
+                    <div class = "col-lg-2"></div>
+                </div>
                 <!-- "Your total score is:" -->
-
+                <div class = "row">
+                    <div class = "col-lg-2"></div>
+                    <div class = "col-lg-8" id="scorePrompt">
+                        <p>Your total score is:</p>
+                    </div>
+                    <div class = "col-lg-2"></div>
+                </div>
+                    <div class = "row">
+                        <div class = "col-lg-2"></div>
+                        <div class = "col-lg-8" id= "score">
+                            <p><span id="userScore"></span></p>
+                        </div>
+                        <div class = "col-lg-2"></div>
+                    </div>
                 <!-- Display current code -->
 
 

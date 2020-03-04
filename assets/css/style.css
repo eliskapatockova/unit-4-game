@@ -1,0 +1,55 @@
+body{
+    background-image: url(../images/bg.png);
+}
+h1{
+    color: navy;
+    background-color: rgba(255, 255, 255, 0.897);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paragraphContainer{
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+p{
+    color: navy;
+}
+
+.randomlyGeneratedNumber{
+    color: navy;
+    background-color: rgba(255, 255, 255, 0.897);
+    font-size: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#winsAndLosses{
+    background-color: rgba(255, 255, 255, 0.897);
+    color: navy;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn-primary{
+    text-align: center;
+    margin-left: 40%;
+}
+
+#scorePrompt{
+    margin-top: 10px;
+    padding-top: 15px;
+    background-color:rgba(255, 255, 255, 0.897) ;
+    text-align: center;
+}
+#score{
+    background-color:rgba(255, 255, 255, 0.897) ;
+    text-align: center;
+}
